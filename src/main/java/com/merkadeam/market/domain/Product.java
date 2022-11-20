@@ -7,7 +7,7 @@ public class Product {
     private double price;
     private int stock;
     private boolean active;//ESTADO
-    private byte[] image;
+    private String image;
     private Category category;
 
     public int getProductId() {
@@ -58,11 +58,11 @@ public class Product {
         this.active = active;
     }
 
-    public byte[] getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(byte[] image) {
+    public void setImage(String image) {
         this.image = image;
     }
 
